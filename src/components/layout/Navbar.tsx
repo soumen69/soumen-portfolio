@@ -20,7 +20,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#090b0a]/90 backdrop-blur-xl">
       <div className="container flex h-[72px] items-center justify-between">
         <a href="#home" className="text-lg font-semibold tracking-[-.06em]" onClick={() => setMenuOpen(false)}>
-          SOUMEN<span className="accent">.</span>
+          SOUMEN
         </a>
         <nav className="hidden items-center gap-6 lg:flex" aria-label="Main navigation">
           {links.map((link) => <a className="nav-link" href={link.href} key={link.href}>{link.label}</a>)}
