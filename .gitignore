@@ -1,0 +1,28 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.log
+.env*
+.vercel
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+.vercel/
+
+# Local environment files
+.env*
+!.env.example
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Logs
+*.log
