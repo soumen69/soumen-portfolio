@@ -40,6 +40,19 @@ export const experience = [
     technologies: ["PHP", "CodeIgniter", "MySQL", "JavaScript", "Bootstrap 5"],
   },
   {
+    company: "Sleek Infosolution Pvt. Ltd.",
+    role: "PHP / CodeIgniter Developer",
+    period: "Jul 2023 – Dec 2023",
+    summary:
+      "Worked on PGPA, a real-estate application assigned by the company, built using CodeIgniter with an HMVC architecture.",
+    highlights: [
+      "Contributed to the development of the PGPA real-estate application.",
+      "Worked with an HMVC-based application structure, organizing functionality into modules.",
+      "Implemented application features and backend workflows for the assigned project.",
+    ],
+    technologies: ["PHP", "CodeIgniter", "MySQL", "HMVC"],
+  },
+  {
     company: "Twiplo Web Services Pvt. Ltd.",
     role: "PHP / CodeIgniter Trainee",
     period: "Jan 2023 – Jun 2023",
@@ -139,11 +152,14 @@ export const projects = [
   },
   {
     number: "08",
-    name: "Real Estate Application",
-    type: "Independent HMVC practice project",
+    name: "PGPA",
+    type: "Real-estate application",
     featured: false,
+    period: "Jul 2023 – Dec 2023",
     description:
-      "An independently developed application concept exploring land and property listing and buying/selling workflows, structured using an HMVC approach.",
+      "A real-estate application developed at Sleek Infosolution Pvt. Ltd., focused on land and property listing and buying/selling workflows, using CodeIgniter with an HMVC architecture.",
+    contribution:
+      "Backend development and application functionality using a modular HMVC structure.",
     technologies: ["PHP", "CodeIgniter", "MySQL", "HMVC"],
   },
 ];
