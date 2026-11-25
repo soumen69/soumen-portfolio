@@ -103,7 +103,7 @@ export const projects = [
   },
   {
     number: "03",
-    name: "Manufacturing Operations Platform",
+    name: "Ornaware Admin",
     type: "Business application",
     featured: true,
     description:
